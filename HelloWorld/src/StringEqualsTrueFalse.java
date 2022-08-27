@@ -20,7 +20,13 @@ public class StringEqualsTrueFalse {
 	System.out.println(s1.equalsIgnoreCase(s3));//true  // for emails
 	}
 
-
+        if(s1.equals(s3)) {  //IF S1==S3 TRUE
+		System.out.println("TRUE");
+	}
+	
+		else {
+			System.out.println("FALSE"); //IF S1 NOT==S3 FALSE
+			
 	}
 
 
