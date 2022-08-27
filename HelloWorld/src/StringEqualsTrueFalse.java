@@ -18,9 +18,10 @@ public class StringEqualsTrueFalse {
 	System.out.println(s1==s3);//false
 	System.out.println(s1.equals(s3));//false     // for passwords
 	System.out.println(s1.equalsIgnoreCase(s3));//true  // for emails
-	}
+	
+		//OR
 
-        if(s1.equals(s3)) {  //IF S1==S3 TRUE
+        if(s1.equals(s3)) {                          //IF S1==S3 TRUE
 		System.out.println("TRUE");
 	}
 	
@@ -28,5 +29,6 @@ public class StringEqualsTrueFalse {
 			System.out.println("FALSE"); //IF S1 NOT==S3 FALSE
 			
 	}
-
+	}
+        }
 
